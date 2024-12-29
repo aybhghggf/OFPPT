@@ -1,0 +1,176 @@
+.logo {
+    height: 10vh;
+}
+
+.body {
+    background-image: url(cool-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.image h1 {
+    color: aliceblue;
+}
+
+h1 {
+    position: relative;
+    top: 2vh;
+    margin-left: 2vw;
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    position: relative;
+    top: -10vh;
+}
+
+nav a {
+    margin-left: 2vw;
+    text-decoration: none;
+    color: gray;
+    font-size: 2vw;
+}
+
+.DES {
+    color: rgb(53, 191, 159);
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-size: 5vw;
+}
+
+.students {
+    z-index: 10;
+    border-radius: 100px;
+}
+
+.col-6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav a:hover {
+    color: rgb(53, 191, 159);
+}
+
+.butona1 {
+    background: none;
+    height: 10vh;
+    width: 30%;
+    max-width: 400px;
+    border-radius: 20px;
+    border: 1px solid;
+    position: relative;
+}
+
+button:hover {
+    background-color: rgb(53, 191, 159);
+}
+
+.c {
+    color: white;
+    text-decoration: none;
+    font-family: "Oswald", serif;
+}
+
+.partie2 {
+    margin-top: 3vh;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    font-family: "Oswald", serif;
+    color: white;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    margin: 0 0 1.5em;
+    text-align: justify;
+}
+
+p.special {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #444;
+    text-indent: 2em;
+}
+
+.r6 {
+    margin-top: 5vh;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.plus {
+    margin-top: 3vh;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2vh 0;
+    font-size: 1rem;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left p {
+    margin: 0;
+    color: #bbb;
+}
+
+.footer-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-right ul li {
+    display: inline-block;
+    margin-left: 2vw;
+}
+
+.footer-right ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.footer-right ul li a:hover {
+    color: #04a9f4;
+}
+
+@media (max-width: 768px) {
+    /* Add responsive styles here if needed */
+}
